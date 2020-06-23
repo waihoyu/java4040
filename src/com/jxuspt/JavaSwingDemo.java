@@ -61,6 +61,15 @@ public class JavaSwingDemo {
             }
         });
         
+        scoreBtn.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				 javax.swing.JDialog jDialog = new JDialog();
+				 jDialog.setSize(300, 200);
+				 jDialog.show();
+			}
+		});
         jf.setContentPane(panel);
         jf.setVisible(true);        
 
